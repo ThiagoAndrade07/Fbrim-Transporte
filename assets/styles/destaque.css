@@ -1,0 +1,99 @@
+.destaque {
+    position: relative;
+    height: 100vh;
+    background: url(../img/image\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.img-destaque {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    max-width: 400px;
+    z-index: 1;
+}
+
+.btn-destaque {
+    font-family: var(--titilum-font);
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    padding: 12px 15px;
+    background-color: var(--azul-forte);
+    border-radius: 30px;
+    color: var(--azul-fraco);
+    border: 1px solid var(--azul-fraco);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.fabrim-destaque {
+    position: relative;
+    text-align: center;
+    font-size: 58px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--titilum-font);
+    text-transform: uppercase;
+    line-height: 70px;
+    font-weight: 900;
+    color: var(--cor-branca);
+    letter-spacing: 3px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.transporte-destaque {
+    color: var(--cor-amarela);
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 760px) {
+    .btn-destaque {
+        display: block;
+        left: 20px;
+    }
+    .fabrim-destaque {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .img-destaque {
+        max-width: 600px;
+    }
+    .btn-destaque {
+        padding: 20px 50px;
+        left: 30px;
+        bottom: 80px;
+    }
+    .fabrim-destaque {
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .btn-destaque {
+        padding: 20px 80px;
+        left: 100px;
+        bottom: 60px;
+    }
+}

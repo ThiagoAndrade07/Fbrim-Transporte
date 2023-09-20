@@ -1,0 +1,15 @@
+@import url(./variaveis.css);
+@import url(./header.css);
+@import url(./destaque.css);
+@import url(./sobrenos.css);
+@import url(./valores.css);
+@import url(./parceiros.css);
+@import url(./contato.css);
+@import url(./footer.css);
+
+body {
+    background-color: #fed162;
+    font-family: 'Bubblegum Sans', cursive;
+    
+}
+

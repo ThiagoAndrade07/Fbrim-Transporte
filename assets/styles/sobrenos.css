@@ -1,0 +1,76 @@
+.sobre-nos {
+    background-color: var(--azul-fraco);
+    padding: 25px 20px;
+    font-family: var(--titilum-font);
+}
+
+.sobre-nos-super-contaimer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre-nos-box-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.img-sobre-nos {
+    width: 60%;
+    max-width: 250px;
+}
+
+.sobre-nos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: var(--azul-forte);
+    width: fit-content;
+    color: var(--cor-branca);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: var(--titilum-font);
+}
+
+.sobre-nos-box p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.missao {
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:1024px) {
+    .sobre-nos {
+        padding: 25px 40px;
+    }
+    .sobre-nos-super-contaimer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sobre-nos-box-img {
+        width: 90%;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .sobre-nos-box p {
+        font-size: 20px;
+    }
+    .img-sobre-nos {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .sobre-nos-super-contaimer {
+        padding: 60px 200px;
+    }
+}
+
