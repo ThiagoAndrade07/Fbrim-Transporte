@@ -10,6 +10,62 @@
 body {
     background-color: #fed162;
     font-family: 'Bubblegum Sans', cursive;
-    
+    position: relative;
 }
 
+
+.menu-mobile {
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.box-mobile-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 80px 0 0 0;
+    padding: 70px 40px 20px 40px;
+    background-color: var(--azul-fraco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--azul-forte);
+}
+
+.box-fechar-header {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.info-header {
+    margin-bottom: 30px;
+}
+
+.link-header {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--titilum-font);
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--azul-forte);
+}
+/* MENU HAMBURGER  */
+
+
+.menu-burger {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+#fixed-display {
+    display: block;
+}

@@ -11,25 +11,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/js/main.js"></script>
     <title>Fabrim | Transporte</title>
 </head>
 <body>
     <header>
         <div class="header-box">
-            <div class="quadrado-header"></div>
-            <a href="./index.html"><img src="./assets/img/logo-header.png" alt="Logo da Fabrim Transporte"></a>
-            <div id="triangulo-para-direita"></div>
+            <div class="container-logo-header">
+                <div class="quadrado-header"></div>
+                <a href="./index.html"><img class="logo-main-header" src="./assets/img/logo-header.png" alt="Logo da Fabrim Transporte"></a>
+                <div id="triangulo-para-direita"></div>
+            </div>
+            
+            <img class="menu-burger" src="./assets/img/icons8-cardápio-50.png" alt="Menu hamburger">
+
+            <div class="menu-mobile">
+                <ul class="box-mobile-header">
+                    <div id="btn-fechar" class="box-fechar-header">
+                        <li><img src="./assets/img/icons8-fechar-janela-48.png" alt="Botão fechar"></li>
+                    </div>
+                    <li class="info-header"><a class="link-header"  href="">Home</a></li>
+                    <li class="info-header"><a class="link-header"  href="">Sobre Nós</a></li>
+                    <li class="info-header"><a class="link-header"  href="">Rotas</a></li>
+                    <li class="info-header"><a class="link-header"  href="">Contato</a></li>
+                    <li class="info-header"><a class="link-header"  href=""><img src="./assets/img/logo-header.png" alt=""></a></li>
+                </ul>
+            </div>
+
         </div>
         
     </header>
     <main>
-        <section class="destaque">
+        <section id="home" class="destaque">
             <a class="btn-destaque" href="https://contate.me/fabrimtransporte">Informoções | Orçamentos</a>
             <h2 class="fabrim-destaque">Fabrim <br><span class="transporte-destaque">Transporte</span></h2>
             <img class="img-destaque" src="./assets/img/Group 7.png" alt="Imagam decorativa">
         </section>
 
-        <section class="sobre-nos">
+        <section id="sobre-nos" class="sobre-nos">
             <div class="sobre-nos-super-contaimer">
                 <div class="sobre-nos-box-img">
                     <img class="img-sobre-nos" src="./assets/img/children recort 1.png" alt="">
@@ -83,7 +102,7 @@
             </div>
         </section>
 
-        <section class="parceiros">
+        <section id="rotas" class="parceiros">
             <div class="parceiros-super-container">
                 <h2>Colégios Parceiros</h2>
                 <img src="./assets/img/mapa.png" alt="Mapa referenciando as escolas em que Fabrim Transporte faz a rota">
@@ -97,7 +116,7 @@
             </div>
         </section>
 
-        <section class="contato">
+        <section id="contato" class="contato">
             <div class="contato-super-container">
                 <h2 class="titulo-contato">Contato</h2>
                 <div class="contato-container">
@@ -123,7 +142,7 @@
                         </div>
                         <div class="contato-box-info">
                             <img src="./assets/img/icons8-nova-mensagem-50 1.png" alt="icone de uma caixa de entrada">
-                            <p>E-mail: -----------</p>
+                            <p>E-mail: fabrimtransporte@hotmail.com</p>
                         </div>
 
                     </div>
@@ -136,5 +155,6 @@
         <a href="./index.html"><img src="./assets/img/logo fb (2) 1.png" alt="Logo da Fabrim Transporte"></a>
         <p>Adriane Fabrim - Fabrim Transporte - CNPJ: 00.000.000/0000-00 © 2023 Todos os direitos reservados Desenvolvido por: <a class="weblab" href="https://weblabsolutions.com.br/">WebLab</a></p>
     </footer>
+    
 </body>
 </html>
