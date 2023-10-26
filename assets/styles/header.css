@@ -9,6 +9,10 @@ header{
     
 }
 
+.menu-desktop-container {
+    display: none;
+}
+
 .header-box {
     display: flex;
     align-items: center;
@@ -37,6 +41,71 @@ header{
     border-left: 40px solid var(--azul-forte);
 }
 
+/* MENU HAMBURGER  */
+
+
+.menu-burger {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    cursor: pointer;
+}
+
+#fixed-display {
+    display: block;
+}
+
+#display-block {
+    display: block;
+}
+
+.menu-mobile {
+    width: 100%;
+    display: none;
+    
+}
+
+.box-mobile-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 80px;
+    padding: 70px 40px 20px 40px;
+    background-color: var(--azul-fraco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--azul-forte);
+}
+
+
+
+.box-fechar-header {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.info-header {
+    margin-bottom: 30px;
+}
+
+.link-header {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--titilum-font);
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--azul-forte);
+}
+
+
 @media screen and (min-width:760px) {
     header {
         height: 100px;
@@ -54,5 +123,51 @@ header{
         left: 35px;
         top: 10px;
         width: 80px;
+    }
+    .menu-burger {
+        top: 25px;
+    }
+    .box-mobile-header {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu-mobile-container {
+        display: none;
+    }
+
+    .info-desktop-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 80px;
+    }
+    .desktop-text-header {
+        margin-right: 80px;
+    }
+    .menu-desktop-container {
+        display: block;
+        width: 100%;
+    }
+    .link-desktop-header {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--azul-forte);
+        font-size: 20px;
+        font-family: var(--titilum-font);
+        font-weight: bold;
+    }
+    .link-desktop-header:hover {
+        color: var(--cor-amarela);
+    }
+    .img-desktop-header {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .link-desktop-header {
+        font-size: 30px;
     }
 }
