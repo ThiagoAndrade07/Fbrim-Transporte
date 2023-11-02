@@ -36,6 +36,13 @@
     z-index: 2;
 }
 
+.btn-destaque:hover {
+    background-color: var(--azul-fraco);
+    border-color: var(--azul-forte);
+    color: var(--azul-forte);
+}
+
+
 .fabrim-destaque {
     position: relative;
     text-align: center;
